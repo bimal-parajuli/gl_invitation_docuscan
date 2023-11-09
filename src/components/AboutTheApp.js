@@ -1,7 +1,9 @@
-function ImageForm() {
+import SelectImage from "./SelectImage";
+
+function AboutTheApp() {
     return (
         <>
-            <section id="ImageFormSection" class="text-gray-400 bg-gray-900 body-font">
+            <section class="text-gray-400 bg-gray-900 body-font">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="text-center mb-20">
                         <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">Scan Guest Lecture Invitations</h1>
@@ -63,11 +65,12 @@ function ImageForm() {
                             </div>
                         </div>
                     </div>
-                    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                    {/* <SelectImage class="fl2  ex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none rounded text-lg">Button</SelectImage> */}
+                    
                 </div>
             </section>
         </>
     )
 }
 
-export default ImageForm;
+export default AboutTheApp;

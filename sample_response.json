@@ -1,0 +1,20 @@
+{
+    "ParsedResults": [
+        {
+            "TextOverlay": {
+                "Lines": [],
+                "HasOverlay": false,
+                "Message": "Text overlay is not provided as it is not requested"
+            },
+            "TextOrientation": "0",
+            "FileParseExitCode": 1,
+            "ParsedText": "School of Computer Science and Engineering (SCOPE)\r\nCordially invites you all for 8th Module Guest Lecture on\r\n\"Role of Cryptocurrencies in Digital Money Exchange\"\r\nMr. Arjun Vijay\r\nExpertise : Cryptocurrency\r\nby\r\nMr. Arjun Vijay\r\nCo-Founder and Chief Operating Officer\r\nGiottus Cryptocurrency Exchange, Chennai\r\nArjun Vijay is the Co-Founder and Chief Operating Officer (COO) of Giottus Cryptocurrency\r\nExchange, one of India's leading digital assets trading platforms. In his current role, he is\r\nresponsible for spearheading the day-to-day operations Of Giottus as well as in fortifring its\r\nproduct suite and partnerships. His passion and interest in cryptocurrency helped him ideate and\r\ncreate a world-class trading platform with sophisticated tools in an easy-to-use app. He has been\r\ninstrumental in helping Giottus acquire plus customers across India. Arjun is focused\r\non new product development with strong customer-centricity. Arjun, an alumnus of 11M\r\nCalcutta, has initiated multiple scalable consumer programs successfully throughout his career.\r\nHe believes in the value of innovation and considers this as a journey towards creating the go-to\r\nplatform for investment in virtual assets. He experiences across diverse domains — retail,\r\ntelecom, renewable energy and blockchain — help him on this path and keep him grounded to\r\nconsumer realities.\r\nDate: 28th September, 2022 (Wednesday)\r\nTime: 02.00 PM to 03.30 PM\r\nVenue: SJT-507\r\nAll are invited\r\nFaculty Coordinators: Dr. GOPICHAND G\r\n",
+            "ErrorMessage": "",
+            "ErrorDetails": ""
+        }
+    ],
+    "OCRExitCode": 1,
+    "IsErroredOnProcessing": false,
+    "ProcessingTimeInMilliseconds": "1984",
+    "SearchablePDFURL": "Searchable PDF not generated as it was not requested."
+}

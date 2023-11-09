@@ -1,14 +1,16 @@
 import './App.css';
-import ImageForm from './components/ImageForm';
+import AboutTheApp from './components/AboutTheApp';
 import HeaderBar from './components/HeaderBar';
+import SelectImage from './components/SelectImage';
 import StepWise from './components/StepWise';
 
 function App() {
   return (
     <div className="App">
       <HeaderBar></HeaderBar>
+      <AboutTheApp></AboutTheApp>
       <StepWise></StepWise>
-      <ImageForm></ImageForm>
+      <SelectImage></SelectImage>
     </div>
   );
 }
