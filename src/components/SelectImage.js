@@ -31,22 +31,15 @@ function SelectImage() {
       apiKey: "helloworld",
     };
 
-    function extractInfo(responseDataText) {
+    function getInfoFromScrape(prompt) {
+        return "Information Extraction Error..";
+    }
+
+    async function extractInfo(responseDataText) {
       setResponseText(responseDataText);
 
-      setExtractedInfo(`"Field", "Information"
-        "Type of lecture","8th Module Industry expert Lecture"
-        "Lecture Title","Recent Trends in Natural Language Processing - An Industry Perspective"
-        "Resource Person Name","Utkarsh Shreemali"
-        "Designation","Machine Learning Engineer"
-        "Company Name","Qualcomm Pvt Ltd"
-        "City/Country","Bengaluru, India"
-        "Course Code/Course Title","BDC3005/ Information Extraction and Retrieval"
-        "Date","9th October 2023"
-        "Time","7:00 PM to 9:00 PM"
-        "Mode Online (or) Venue, Room No","SJT404"
-        "Coordinators","Dr. Swathi J N and Dr. Naveen Kumar"
-        `);
+      const gptResponse = await getInfoFromScrape(responseDataText + prompt_last);
+      setExtractedInfo(gptResponse);
 
       // setResponseText("File Scanned. Information Extraction Underway... Please wait.");
     }
@@ -85,7 +78,7 @@ Please dont return even an extra word other than the csv
 
         setResponseText(responseDataText);
 
-        extractInfo(responseDataText);
+        // extractInfo(responseDataText);
       } else {
         setResponseText("Error: File upload failed.");
       }
