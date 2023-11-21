@@ -40,7 +40,7 @@ const CSVUploader = () => {
             if (response.ok) {
                 const responseData = await response.text();
                 console.log('API Response:', responseData);
-                alert('File Saved Succesfully. Details Logged on console.', );
+                alert('File Saved Succesfully. Details Logged on console.',);
 
             } else {
                 console.error('Error: File upload failed.');
@@ -55,7 +55,8 @@ const CSVUploader = () => {
     }
     return (
         <>
-            <div class="bg-gray-900">
+            <div class="bg-gray-900 text-gray-500 dark:text-gray-400">
+                <center class="px-30 text-white text-center text-3xl">Part 2: Save CSV File to DB..</center>
                 <input id="csvfileUploadInput" type="file" onChange={handleFileUpload} />
 
 
@@ -85,8 +86,9 @@ const CSVUploader = () => {
                         </tbody>
                     </table>
                 </div>
-
-                <button onClick={handleUpload}>Upload File</button>
+                <div class="flex justify-center p-2 bg-gray-900">
+                    <button class="w-24 px-4 py-2 text-white bg-blue-500 rounded shadow-xl" onClick={handleUpload}>Upload File</button>
+                </div>
             </div>
         </>
 

@@ -55,7 +55,7 @@ Field, Information
 "City/Country", "..."
 "Course Code/Course Title", "..."
 "Date", "..."
-"Time" "..."
+"Time", "..."
 "Mode Online (or) Venue/ Room No", "..."
 "Coordinators", "..."
 
@@ -97,8 +97,9 @@ Please dont return even an extra word other than the csv
   // );
   return (
     <>
+      <center class="px-30 bg-gray-900 text-white text-center text-2xl pb-24 mb-0">Part 1: Extract Info from an image scan.</center> <br></br>
       <div class="bg-gray-900 flex justify-center" id="ImageFormSection">
-        <div class="flex items-center justify-center max-w-xl mt-48 flex justify-center mt-8">
+        <div class="flex items-center justify-center max-w-xl flex justify-center pt-8">
           <label
             for="dropzone-file"
             class="flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600"
@@ -146,7 +147,7 @@ Please dont return even an extra word other than the csv
             Upload
           </button>
         </div>
-        <div class="text-white text-center mt-48">
+        <div class="text-white text-center mt-24 pb-24">
           <b>
             <u>Scanned Document Extract here.</u>
           </b>
